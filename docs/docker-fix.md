@@ -80,3 +80,31 @@ docker run --rm tools-frontend npm run type-check
 - TypeScript configuration is optimized for Next.js development
 - Build artifacts and development files are properly excluded to reduce image size
 - Environment files are excluded for security (use Docker secrets instead)
+
+## Repository Setup and PR Creation
+
+### To complete the deployment:
+
+1. **Set up remote repository** (if not already configured):
+   ```bash
+   # Create a new repository on GitHub or add existing remote
+   git remote add origin <repository-url>
+   ```
+
+2. **Push the changes**:
+   ```bash
+   git push origin refine-dockerignore-python-rules
+   ```
+
+3. **Create Pull Request**:
+   ```bash
+   # Using GitHub CLI
+   gh pr create --title "fix(docker): include Next.js lib directory and restore successful build" \
+                --body "This PR fixes Docker build issues by properly configuring .dockerignore and tsconfig.json files. See docs/docker-fix.md for complete details." \
+                --base main
+   ```
+
+### Commit Information
+- **Branch**: `refine-dockerignore-python-rules`
+- **Commit Message**: `fix(docker): include Next.js lib directory and restore successful build`
+- **Files Changed**: 462 files with comprehensive Docker and TypeScript configuration updates
