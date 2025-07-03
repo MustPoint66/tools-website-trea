@@ -1,0 +1,45 @@
+services:
+  # Development backend with live reloading
+  backend:
+    build:
+      target: development
+      args:
+        - DEV_MODE=true
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    volumes:
+      - .:/app
+      - /app/venv
+      - /app/__pycache__
+    environment:
+      - PYTHONPATH=/app
+      - REDIS_URL=redis://redis:6379/0
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - CELERY_RESULT_BACKEND=redis://redis:6379/0
+
+  # Development celery worker with live reloading
+  celery-worker:
+    command: watchmedo auto-restart --directory=./app --pattern=*.py --recursive -- celery -A app.tasks.celery_app worker --loglevel=info --concurrency=2
+    volumes:
+      - .:/app
+      - /app/venv
+      - /app/__pycache__
+
+  # Development frontend with live reloading
+  frontend:
+    build:
+      target: development
+    command: npm run dev
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      - NODE_ENV=development
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+    ports:
+      - "3000:3000"
+      - "3001:3001" # For Next.js dev server
+
+  # Enable Redis Commander in dev mode
+  redis-commander:
+    profiles: []

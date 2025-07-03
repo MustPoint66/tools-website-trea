@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/pdf/[operation]/route": "app/api/pdf/[operation]/route.js",
+  "/category/[slug]/page": "app/category/[slug]/page.js",
+  "/page": "app/page.js",
+  "/tools/[...slug]/page": "app/tools/[...slug]/page.js",
+  "/tools/pdf-converter/page": "app/tools/pdf-converter/page.js",
+  "/tools/word-counter/page": "app/tools/word-counter/page.js"
+}

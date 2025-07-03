@@ -1,0 +1,123 @@
+{
+    "fields": [
+        {
+            "name": "full_name",
+            "type": "text",
+            "label": "Full Name",
+            "required": true,
+            "placeholder": "John Doe"
+        },
+        {
+            "name": "email",
+            "type": "text",
+            "label": "Email Address",
+            "required": true,
+            "placeholder": "john.doe@example.com"
+        },
+        {
+            "name": "phone",
+            "type": "text",
+            "label": "Phone Number",
+            "required": true,
+            "placeholder": "+1 (555) 123-4567"
+        },
+        {
+            "name": "address",
+            "type": "text",
+            "label": "Address",
+            "required": false,
+            "placeholder": "123 Main St, City, State, ZIP"
+        },
+        {
+            "name": "summary",
+            "type": "textarea",
+            "label": "Professional Summary",
+            "required": false,
+            "placeholder": "Experienced professional with skills in..."
+        },
+        {
+            "name": "experience_1_title",
+            "type": "text",
+            "label": "Experience 1 - Job Title",
+            "required": false,
+            "placeholder": "Software Engineer"
+        },
+        {
+            "name": "experience_1_company",
+            "type": "text",
+            "label": "Experience 1 - Company",
+            "required": false,
+            "placeholder": "ABC Technologies"
+        },
+        {
+            "name": "experience_1_dates",
+            "type": "text",
+            "label": "Experience 1 - Dates",
+            "required": false,
+            "placeholder": "Jan 2020 - Present"
+        },
+        {
+            "name": "experience_1_description",
+            "type": "textarea",
+            "label": "Experience 1 - Description",
+            "required": false,
+            "placeholder": "Responsibilities and achievements..."
+        },
+        {
+            "name": "experience_2_title",
+            "type": "text",
+            "label": "Experience 2 - Job Title",
+            "required": false,
+            "placeholder": "Junior Developer"
+        },
+        {
+            "name": "experience_2_company",
+            "type": "text",
+            "label": "Experience 2 - Company",
+            "required": false,
+            "placeholder": "XYZ Solutions"
+        },
+        {
+            "name": "experience_2_dates",
+            "type": "text",
+            "label": "Experience 2 - Dates",
+            "required": false,
+            "placeholder": "Jun 2018 - Dec 2019"
+        },
+        {
+            "name": "experience_2_description",
+            "type": "textarea",
+            "label": "Experience 2 - Description",
+            "required": false,
+            "placeholder": "Responsibilities and achievements..."
+        },
+        {
+            "name": "education_degree",
+            "type": "text",
+            "label": "Education - Degree",
+            "required": false,
+            "placeholder": "Bachelor of Science in Computer Science"
+        },
+        {
+            "name": "education_institution",
+            "type": "text",
+            "label": "Education - Institution",
+            "required": false,
+            "placeholder": "University of Example"
+        },
+        {
+            "name": "education_dates",
+            "type": "text",
+            "label": "Education - Dates",
+            "required": false,
+            "placeholder": "2014 - 2018"
+        },
+        {
+            "name": "skills",
+            "type": "textarea",
+            "label": "Skills",
+            "required": false,
+            "placeholder": "Programming languages, tools, soft skills..."
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-34ac56cb32b70ed4.js",
+      "static/chunks/117-c091e6fc43a085f7.js",
+      "static/chunks/main-app-e2d44e3eb19317fd.js",
+      "static/chunks/app/_not-found/page-1ca6f6a125d22d96.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-34ac56cb32b70ed4.js",
+      "static/chunks/117-c091e6fc43a085f7.js",
+      "static/chunks/main-app-e2d44e3eb19317fd.js",
+      "static/css/3359787bbbf89907.css",
+      "static/chunks/app/layout-d32f7372555c8759.js"
+    ],
+    "/category/[slug]/page": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-34ac56cb32b70ed4.js",
+      "static/chunks/117-c091e6fc43a085f7.js",
+      "static/chunks/main-app-e2d44e3eb19317fd.js",
+      "static/chunks/842-a0310be3c3f11ab5.js",
+      "static/chunks/508-b122051fbf31a1c7.js",
+      "static/chunks/482-2eb9eb7972b18f3e.js",
+      "static/chunks/407-d589509b80bcb077.js",
+      "static/chunks/app/category/[slug]/page-a2e83f9e2cb2e8b3.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-34ac56cb32b70ed4.js",
+      "static/chunks/117-c091e6fc43a085f7.js",
+      "static/chunks/main-app-e2d44e3eb19317fd.js",
+      "static/chunks/842-a0310be3c3f11ab5.js",
+      "static/chunks/648-68842e88211fcfeb.js",
+      "static/chunks/508-b122051fbf31a1c7.js",
+      "static/chunks/407-d589509b80bcb077.js",
+      "static/chunks/app/page-bef8b2f96f54cd8c.js"
+    ],
+    "/tools/[...slug]/page": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-34ac56cb32b70ed4.js",
+      "static/chunks/117-c091e6fc43a085f7.js",
+      "static/chunks/main-app-e2d44e3eb19317fd.js",
+      "static/chunks/842-a0310be3c3f11ab5.js",
+      "static/chunks/648-68842e88211fcfeb.js",
+      "static/chunks/369-b78b1fba12e59b56.js",
+      "static/chunks/app/tools/[...slug]/page-9406501c62e4eee7.js"
+    ],
+    "/tools/pdf-converter/page": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-34ac56cb32b70ed4.js",
+      "static/chunks/117-c091e6fc43a085f7.js",
+      "static/chunks/main-app-e2d44e3eb19317fd.js",
+      "static/chunks/842-a0310be3c3f11ab5.js",
+      "static/chunks/648-68842e88211fcfeb.js",
+      "static/chunks/app/tools/pdf-converter/page-e893d1acd6e2dd09.js"
+    ],
+    "/tools/word-counter/page": [
+      "static/chunks/webpack-df9508188de4c63c.js",
+      "static/chunks/fd9d1056-34ac56cb32b70ed4.js",
+      "static/chunks/117-c091e6fc43a085f7.js",
+      "static/chunks/main-app-e2d44e3eb19317fd.js",
+      "static/chunks/648-68842e88211fcfeb.js",
+      "static/chunks/app/tools/word-counter/page-f165e6a0e8bab5e9.js"
+    ]
+  }
+}

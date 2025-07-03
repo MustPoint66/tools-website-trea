@@ -1,0 +1,140 @@
+import { Tool } from '../../../../types/tool';
+
+const aiTools: Tool[] = [
+  {
+    id: 'ai-image-generator',
+    name: 'AI Image Generator',
+    title: 'AI Image Generator',
+    href: '/tools/ai-image-generator',
+    description: 'Generate stunning images using AI technology from text descriptions.',
+    category: 'developer-tools',
+    rating: 4.9,
+    users: '50K+',
+    icon: 'Sparkles',
+    featured: true,
+    new: true,
+    tags: ['AI', 'Generate', 'Creative', 'Text-to-Image']
+  },
+  {
+    id: 'ai-background-remover',
+    name: 'AI Background Remover',
+    title: 'AI Background Remover',
+    href: '/tools/ai-background-remover',
+    description: 'Remove background from images automatically using AI.',
+    category: 'developer-tools',
+    rating: 4.8,
+    users: '75K+',
+    icon: 'Scissors',
+    featured: true,
+    popular: true,
+    tags: ['AI', 'Background', 'Remove', 'Automatic']
+  },
+  {
+    id: 'ai-image-upscaler',
+    name: 'AI Image Upscaler',
+    title: 'AI Image Upscaler',
+    href: '/tools/ai-image-upscaler',
+    description: 'Increase image resolution using AI while maintaining quality.',
+    category: 'developer-tools',
+    rating: 4.8,
+    users: '45K+',
+    icon: 'ZoomIn',
+    featured: true,
+    tags: ['AI', 'Upscale', 'Resolution', 'Enhance']
+  },
+  {
+    id: 'ai-watermark-remover',
+    name: 'AI Watermark Remover',
+    title: 'AI Watermark Remover',
+    href: '/tools/ai-watermark-remover',
+    description: 'Remove watermarks from photos using AI technology.',
+    category: 'developer-tools',
+    rating: 4.6,
+    users: '32K+',
+    icon: 'Eraser',
+    featured: true,
+    tags: ['AI', 'Watermark', 'Remove', 'Clean']
+  },
+  {
+    id: 'ai-object-remover',
+    name: 'AI Object Remover',
+    title: 'AI Object Remover',
+    href: '/tools/ai-object-remover',
+    description: 'Remove unwanted objects from photos using AI.',
+    category: 'developer-tools',
+    rating: 4.7,
+    users: '38K+',
+    icon: 'MousePointer',
+    featured: true,
+    tags: ['AI', 'Objects', 'Remove', 'Edit']
+  },
+  {
+    id: 'ai-photo-enhancer',
+    name: 'AI Photo Enhancer',
+    title: 'AI Photo Enhancer',
+    href: '/tools/ai-photo-enhancer',
+    description: 'Enhance photo quality using AI algorithms.',
+    category: 'developer-tools',
+    rating: 4.7,
+    users: '42K+',
+    icon: 'Sparkles',
+    featured: true,
+    tags: ['AI', 'Enhance', 'Quality', 'Photo']
+  },
+  {
+    id: 'ai-colorizer',
+    name: 'AI Photo Colorizer',
+    title: 'AI Photo Colorizer',
+    href: '/tools/ai-colorizer',
+    description: 'Colorize black and white photos using AI.',
+    category: 'developer-tools',
+    rating: 4.6,
+    users: '28K+',
+    icon: 'Palette',
+    featured: false,
+    tags: ['AI', 'Colorize', 'Black-White', 'Restore']
+  },
+  {
+    id: 'ai-image-unblur',
+    name: 'AI Image Unblur',
+    title: 'AI Image Unblur',
+    href: '/tools/ai-image-unblur',
+    description: 'Unblur and sharpen images using AI technology.',
+    category: 'developer-tools',
+    rating: 4.5,
+    users: '22K+',
+    icon: 'Eye',
+    featured: false,
+    tags: ['AI', 'Unblur', 'Sharpen', 'Enhance']
+  },
+  {
+    id: 'ai-text-extractor',
+    name: 'AI Text Extractor',
+    title: 'AI OCR Text Extractor',
+    href: '/tools/ai-text-extractor',
+    description: 'Extract text from images using advanced AI OCR.',
+    category: 'developer-tools',
+    rating: 4.8,
+    users: '55K+',
+    icon: 'FileText',
+    featured: true,
+    popular: true,
+    tags: ['AI', 'OCR', 'Text', 'Extract']
+  },
+  {
+    id: 'ai-document-chat',
+    name: 'AI Document Chat',
+    title: 'AI Document Chat',
+    href: '/tools/ai-document-chat',
+    description: 'Chat with your documents using AI to get insights and answers.',
+    category: 'developer-tools',
+    rating: 4.9,
+    users: '35K+',
+    icon: 'MessageSquare',
+    featured: true,
+    premium: true,
+    tags: ['AI', 'Chat', 'Document', 'Analysis']
+  }
+];
+
+export default aiTools;

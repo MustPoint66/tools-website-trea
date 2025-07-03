@@ -1,0 +1,53 @@
+{
+  "summary": {
+    "total_tests": 7,
+    "passed_tests": 6,
+    "failed_tests": 1,
+    "success_rate": "85.7%",
+    "duration": "9.02s"
+  },
+  "results": [
+    {
+      "name": "Project Structure",
+      "success": true,
+      "message": "Found all required files",
+      "details": ""
+    },
+    {
+      "name": "Configuration Files",
+      "success": true,
+      "message": "All configuration files valid",
+      "details": ""
+    },
+    {
+      "name": "Node Dependencies",
+      "success": true,
+      "message": "All core dependencies found",
+      "details": ""
+    },
+    {
+      "name": "TypeScript Compilation",
+      "success": true,
+      "message": "No type errors found",
+      "details": ""
+    },
+    {
+      "name": "ESLint",
+      "success": true,
+      "message": "Found 6 warnings (non-blocking)",
+      "details": ""
+    },
+    {
+      "name": "Backend Syntax",
+      "success": true,
+      "message": "All 40 Python files have valid syntax",
+      "details": ""
+    },
+    {
+      "name": "Backend Startup",
+      "success": false,
+      "message": "Backend startup failed",
+      "details": ""
+    }
+  ]
+}

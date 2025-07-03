@@ -1,0 +1,92 @@
+[
+    {
+        "template_id": "resume-basic",
+        "name": "Basic Resume",
+        "description": "A clean, simple resume template suitable for most job applications.",
+        "category": "resume",
+        "tags": ["simple", "professional", "clean"],
+        "preview_image": "resume/basic-resume.png",
+        "file_path": "resume/basic-resume.pdf"
+    },
+    {
+        "template_id": "resume-creative",
+        "name": "Creative Resume",
+        "description": "A modern, creative resume template for design and creative roles.",
+        "category": "resume",
+        "tags": ["creative", "modern", "design"],
+        "preview_image": "resume/creative-resume.png",
+        "file_path": "resume/creative-resume.pdf"
+    },
+    {
+        "template_id": "cv-academic",
+        "name": "Academic CV",
+        "description": "Comprehensive CV template for academic and research positions.",
+        "category": "cv",
+        "tags": ["academic", "research", "detailed"],
+        "preview_image": "cv/academic-cv.png",
+        "file_path": "cv/academic-cv.pdf"
+    },
+    {
+        "template_id": "invoice-standard",
+        "name": "Standard Invoice",
+        "description": "Professional invoice template for businesses.",
+        "category": "invoice",
+        "tags": ["business", "finance", "professional"],
+        "preview_image": "invoice/standard-invoice.png",
+        "file_path": "invoice/standard-invoice.pdf"
+    },
+    {
+        "template_id": "contract-employment",
+        "name": "Employment Contract",
+        "description": "Standard employment contract template.",
+        "category": "contract",
+        "tags": ["legal", "employment", "business"],
+        "preview_image": "contract/employment-contract.png",
+        "file_path": "contract/employment-contract.pdf"
+    },
+    {
+        "template_id": "contract-nda",
+        "name": "Non-Disclosure Agreement",
+        "description": "Standard NDA template for business confidentiality.",
+        "category": "contract",
+        "tags": ["legal", "confidentiality", "business"],
+        "preview_image": "contract/nda-contract.png",
+        "file_path": "contract/nda-contract.pdf"
+    },
+    {
+        "template_id": "cover-letter-basic",
+        "name": "Basic Cover Letter",
+        "description": "Simple, professional cover letter template.",
+        "category": "cover_letter",
+        "tags": ["simple", "professional", "job application"],
+        "preview_image": "cover_letter/basic-cover-letter.png",
+        "file_path": "cover_letter/basic-cover-letter.pdf"
+    },
+    {
+        "template_id": "invoice-freelance",
+        "name": "Freelance Invoice",
+        "description": "Invoice template designed for freelancers and contractors.",
+        "category": "invoice",
+        "tags": ["freelance", "contractor", "simple"],
+        "preview_image": "invoice/freelance-invoice.png",
+        "file_path": "invoice/freelance-invoice.pdf"
+    },
+    {
+        "template_id": "business-letterhead",
+        "name": "Business Letterhead",
+        "description": "Professional letterhead template for business correspondence.",
+        "category": "business",
+        "tags": ["letterhead", "correspondence", "professional"],
+        "preview_image": "business/letterhead.png",
+        "file_path": "business/letterhead.pdf"
+    },
+    {
+        "template_id": "legal-will",
+        "name": "Last Will and Testament",
+        "description": "Basic will template for personal estate planning.",
+        "category": "legal",
+        "tags": ["will", "estate", "personal"],
+        "preview_image": "legal/will-template.png",
+        "file_path": "legal/will-template.pdf"
+    }
+]
