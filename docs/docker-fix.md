@@ -108,3 +108,5 @@ docker run --rm tools-frontend npm run type-check
 - **Branch**: `refine-dockerignore-python-rules`
 - **Commit Message**: `fix(docker): include Next.js lib directory and restore successful build`
 - **Files Changed**: 462 files with comprehensive Docker and TypeScript configuration updates
+- **Repository**: https://github.com/MustPoint66/tools-website-trea
+- **Created**: 2025-07-03
